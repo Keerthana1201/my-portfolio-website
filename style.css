@@ -49,7 +49,7 @@ nav ul li a:hover {
 
 /* Home section */
 .home {
-  background: url("assets/landing-bg.png") center center/cover no-repeat;
+  background: url("assetslanding-bg.png") center center/cover no-repeat;
   height: 100vh;
   position: relative;
   display: flex;
@@ -144,3 +144,4 @@ footer {
   color: white;
   font-size: 0.9rem;
 }
+
