@@ -1,0 +1,81 @@
+/* Reset & basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #000;
+  color: #fff;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+header a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  color: #000;
+}
+
+/* Project Cards */
+.project {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: #f9f9f9;
+}
+.project h3 {
+  color: #333;
+}
+.project a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #0077cc;
+  text-decoration: none;
+}
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
